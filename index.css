@@ -1,8 +1,42 @@
-.my-heading {
-    background-color: chartreuse;
-    text-decoration: underline;
+.registration-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
 }
 
-.emphasis {
-    font-style: italic;
+.form-group {
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3e8e41;
+}
+
+#userDataTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#userDataTable th, #userDataTable td {
+    border: 1px solid #ccc;
+    padding: 8px;
 }
